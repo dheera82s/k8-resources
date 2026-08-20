@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: nginx-lb
 spec:
-  type: loadBalancer
+  type: LoadBalancer
   selector:
     project: expense
     component: backend
