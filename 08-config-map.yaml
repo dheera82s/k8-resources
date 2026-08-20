@@ -4,4 +4,4 @@ metadata:
   name: my-config
 data:
   country: "kubernetes"
-  duration: "2 years"
+  duration: "2hrs"
