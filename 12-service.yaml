@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: nginx
+  namespace: backend
 spec:
   selector:
     project: expense
@@ -13,6 +14,7 @@ spec:
       port: 80
       targetPort: 80
 
+---
 kind: Pod
 apiVersion: v1
 metadata:
