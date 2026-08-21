@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: nginx
@@ -6,7 +6,7 @@ metadata:
     app: frontend
     tire: web
 spec:
-  replica: 3
+  replicas: 3
   selector:
     matchLabels:
       app: frontend
